@@ -1,11 +1,11 @@
-import DateRangeSelector from "./components/DateRangeSelector/DateRangeSelector";
-
+import SuperDatePicker	 from "./components/SuperDatePicker/SuperDatePicker";
+import styles from "./App.module.css"
 function App() {
 
   return (
-    <>
-       <DateRangeSelector/>
-    </>
+    <div className={styles.wrapper}>
+       <SuperDatePicker/>
+    </div>
   )
 }
 
