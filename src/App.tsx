@@ -4,6 +4,7 @@ function App() {
 
   return (
     <div className={styles.wrapper}>
+      <p>Hi, it's Super Date Picker</p>
        <SuperDatePicker/>
     </div>
   )
