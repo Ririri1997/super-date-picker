@@ -1,5 +1,13 @@
-.date-wrapper{
+.wrapper{
   display: flex;
   align-items: center;
   gap: 24px;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.input label{
+  margin-bottom: 12px;
 }
